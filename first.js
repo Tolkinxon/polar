@@ -1,6 +1,5 @@
 'use strict'
-let varA = '40'
-let varB = '15'
+let x = 0;
+x ||= 20;
 
-console.log(varA < varB);
-
+console.log(x);
