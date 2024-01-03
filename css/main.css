@@ -86,14 +86,12 @@ ul, ol {
     justify-content: space-between;
 }
 
-.header-ul-wrapper{
-    max-width: 780px;
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid red;
-    align-items: center;
-}
 
 .header-list {
+    max-width: 450px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+
 }
