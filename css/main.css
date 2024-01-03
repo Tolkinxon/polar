@@ -84,7 +84,7 @@ ul, ol {
 .header-container {
     display: flex;
     justify-content: left;
-    border: 2px solid red;
+    align-items: center;
 }
 
 .header-logo {
@@ -93,14 +93,36 @@ ul, ol {
 
 
 .header-list {
-    max-width: 800px;
+    width: 800px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
     margin-right: 171px;
+}
+
+.header-item {
+    color: #150101;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.6;    
 }
 
 .header-btn {
     width: 165px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D23166;
+    color: #FAFAFA;
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+
+    
 }
