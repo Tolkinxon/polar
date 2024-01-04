@@ -34,6 +34,14 @@
 
 @font-face {
     font-display: swap; 
+    font-family: 'Fredoka';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/fredoka-v14-latin-700.woff2') format('woff2'); 
+  }
+
+@font-face {
+    font-display: swap; 
     font-family: 'Hind Madurai';
     font-style: normal;
     font-weight: 400;
@@ -82,6 +90,7 @@ ul, ol {
 }
 
 .header-container {
+    max-width: 1140px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -90,11 +99,15 @@ ul, ol {
 
 .header {
     padding-bottom: 37px;
-    
+    background: rgba(242, 206, 218, 0.3);
+
 }
 
 .header-logo {
-    margin-right: 266px;
+    margin-right: 266px;  
+    width:79px;
+    height:79px;
+    opacity: 1;
 }
 
 
@@ -141,9 +154,12 @@ ul, ol {
     background-size: 597px 597px;
     background-repeat: no-repeat;
     background-position: right;
-    border: 2px solid red;
     display: flex;
     align-items: center;
+}
+
+.hero {
+    background: rgba(242, 206, 218, 0.3);
 }
 
 .hero-left-side {
@@ -167,17 +183,27 @@ ul, ol {
     font-family: 'Fredoka', sans-serif;
     font-size: 57.33px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 120.5%; /* 69.083px */
     margin: 0px;
     margin-bottom: 35px;
     opacity: 0.9;
 }
 
+.hero-heading span {
+    opacity: 0.9;
+    color: #D23166;
+    font-family: 'Fredoka';
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120.5%;
+}
+
 .hero-paragraph  {
     width: 523px;
     color: #0F0101;
-    font-family: Hind Madurai;
+    font-family: 'Hind Madurai';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
