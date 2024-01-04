@@ -124,3 +124,25 @@ ul, ol {
     line-height: normal;
     border: none;
 }
+
+
+/* HERO */
+
+.hero-container {
+    height: 597px;
+    display: flex;
+    background-image: url('/images/hero-ice-cream.png');
+    background-size: 597px 597px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.hero-firth-statement{
+    color: #0F0101;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.4px;
+}
