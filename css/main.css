@@ -85,6 +85,12 @@ ul, ol {
     display: flex;
     justify-content: left;
     align-items: center;
+
+}
+
+.header {
+    padding-bottom: 37px;
+    
 }
 
 .header-logo {
@@ -135,6 +141,9 @@ ul, ol {
     background-size: 597px 597px;
     background-repeat: no-repeat;
     background-position: right;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
 }
 
 .hero-left-side {
@@ -162,4 +171,18 @@ ul, ol {
     line-height: 120.5%; /* 69.083px */
     margin: 0px;
     margin-bottom: 35px;
+    opacity: 0.9;
+}
+
+.hero-paragraph  {
+    width: 523px;
+    color: #0F0101;
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    opacity: 0.6;
+    margin: 0px;
+    margin-bottom: 50px;
 }
