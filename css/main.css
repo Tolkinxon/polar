@@ -137,11 +137,29 @@ ul, ol {
     background-position: right;
 }
 
+.hero-left-side {
+    width: 665px;
+}
+
 .hero-firth-statement{
     color: #0F0101;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
+    line-height: normal;
     letter-spacing: 1.4px;
+    margin: 0;
+    margin-bottom: 6px;
+}
+
+.hero-heading {
+    color: #0F0101;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 57.33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120.5%; /* 69.083px */
+    margin: 0px;
+    margin-bottom: 35px;
 }
