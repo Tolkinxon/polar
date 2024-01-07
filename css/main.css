@@ -150,17 +150,18 @@ ul, ol {
 .hero-container {
     height: 597px;
     display: flex;
-    background-image: url('/images/hero-ice-cream.png');
-    background-size: 597px 597px;
+    background-image: url('/images/bg-image.png');
+    background-size: 742px;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:calc(50% + 265px);
  
     display: flex;
     align-items: center;
 
     position: relative;
+    padding-bottom: 213px;
+    padding-top: 200px;
 
-    
 }
 
 .hero {
