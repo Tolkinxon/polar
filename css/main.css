@@ -150,12 +150,17 @@ ul, ol {
 .hero-container {
     height: 597px;
     display: flex;
-    background-image: url('/images/hero-back-milk.png'), url('/images/hero-ice-cream.png');
-    background-size: 851px 548px, 597px 597px;
+    background-image: url('/images/hero-ice-cream.png');
+    background-size: 597px 597px;
     background-repeat: no-repeat;
-    background-position: calc(90% + 142px) 176px, right;
+    background-position: right;
+ 
     display: flex;
     align-items: center;
+
+    position: relative;
+
+    
 }
 
 .hero {
@@ -164,6 +169,7 @@ ul, ol {
 
 .hero-left-side {
     width: 665px;
+    z-index: 1;
 }
 
 .hero-firth-statement{
@@ -212,3 +218,18 @@ ul, ol {
     margin: 0px;
     margin-bottom: 50px;
 }
+
+.background-div {
+    width: 50%;
+    height: 100%;
+    right: 14px;
+    top: 155px;
+    position: absolute;
+    transform: rotate(7deg);
+    background-image: url('/images/hero-back-milk.png');
+    background-size: 851px 548px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   
+}   
