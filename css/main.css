@@ -216,21 +216,49 @@ ul, ol {
     margin-bottom: 50px;
 }
 
-.background-div {
-    width: 50%;
-    height: 100%;
-    right: 14px;
-    top: 155px;
-    position: absolute;
-    transform: rotate(7deg);
-    background-image: url('/images/hero-back-milk.png');
-    background-size: 851px 548px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 /* Servie  List */
-
-.{
+.service-list-ul{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
     
+}
+
+.service-list-item {
+    width: 250px;
+    height: 200px;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.10);
+    padding: 33px 26px 27px 26px;
+    text-align: center;
+}
+
+.service-list-img {
+    width: 51px;
+    height: 43px;
+    margin: 0px;
+}
+
+.service-list-heading {
+    font-family:' Hind Madurai', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+    margin-bottom: 9px;
+    margin-top: 25px;
+}
+
+.service-list-paragraph {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+    margin: 0px;
 }
