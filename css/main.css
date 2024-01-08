@@ -38,7 +38,7 @@
     font-style: normal;
     font-weight: 700;
     src: url('../fonts/fredoka-v14-latin-700.woff2') format('woff2'); 
-  }
+}
 
 @font-face {
     font-display: swap; 
@@ -94,13 +94,13 @@ ul, ol {
     display: flex;
     justify-content: left;
     align-items: center;
-
+    
 }
 
 .header {
     padding-bottom: 37px;
     background: rgba(242, 206, 218, 0.3);
-
+    
 }
 
 .header-logo {
@@ -153,15 +153,11 @@ ul, ol {
     background-image: url('/images/bg-image.png');
     background-size: 742px;
     background-repeat: no-repeat;
-    background-position:calc(50% + 265px);
- 
+    background-position:calc(50% + 303px);
     display: flex;
     align-items: center;
-
-    position: relative;
     padding-bottom: 213px;
     padding-top: 200px;
-
 }
 
 .hero {
@@ -231,6 +227,6 @@ ul, ol {
     background-size: 851px 548px;
     background-repeat: no-repeat;
     background-position: center;
-
-   
+    
+    
 }   
