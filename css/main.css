@@ -323,7 +323,7 @@ ul, ol {
     height: 550px;
     background-image: url('/images/sugar-img.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: calc(50% + 280px);
     background-size: 655px 657px;
     display: flex;
     align-items: center;
@@ -399,4 +399,64 @@ ul, ol {
     opacity: 1;
     border-bottom: 3px solid #D64374;
 
+}
+
+.product-price-list {
+    width: 100%;
+}
+
+.product-price-item {
+    display: flex;
+    /* align-items: center; */
+}
+
+.product-price-item-img {
+    width: 580px;
+    height: 415px;
+    margin-right: 85px;
+}
+
+.product-price-item-right-side {
+    margin-top: 60px;
+}
+
+.product-price-item-heading {
+    color: #000;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.product-price-item-paragraph {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    opacity: 0.7;
+}
+
+.product-price-item-span {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.product-price-item-span span {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+    opacity: 0.7;
+}
+
+.product-price-item-btn {
+    display: block;
 }
