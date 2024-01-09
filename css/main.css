@@ -403,6 +403,8 @@ ul, ol {
 
 .product-price-list {
     width: 100%;
+    margin-bottom: 120px;
+
 }
 
 .product-price-item {
@@ -485,11 +487,25 @@ ul, ol {
 }
 
 /* adele */
+.adele-right-side-top {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 46px;
+}
 
 .adele-top-img {
     width: 60px;
     height: 60px;
     margin-right: 21px;
+    border-radius: 50%;
+}
+
+.adele-top-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
 }
 
 .adele-top-heading {
@@ -498,6 +514,7 @@ ul, ol {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin-bottom: 5px;
 }
 
 .adele-top-paragraph {
@@ -507,5 +524,25 @@ ul, ol {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+
+.adele-right-side-middle {
+    display: flex;
+    align-items: first baseline;
+}
+
+.adele-middle-img {
+ 
+}
+
+.adele-middle-paragraph {
+    width: 322px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
     opacity: 0.7;
 }
