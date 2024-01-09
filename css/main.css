@@ -69,7 +69,6 @@
     src: url('../fonts/hind-madurai-v11-latin-700.woff2') format('woff2'); /
 }
 
-
 body{
     margin: 0;
     padding: 0;
@@ -78,7 +77,12 @@ body{
 ul, ol {
     list-style-type: none;
     margin: 0px;
-    padding: 0;
+    padding: 0px;
+}
+
+.h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
 }
 
 .container {
@@ -101,7 +105,7 @@ ul, ol {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
 
 .header-container {
     max-width: 1140px;
@@ -114,7 +118,6 @@ ul, ol {
 .header {
     padding-bottom: 37px;
     background: rgba(242, 206, 218, 0.3);
-    
 }
 
 .header-logo {
@@ -126,21 +129,42 @@ ul, ol {
 
 
 .header-list {
-    width: 800px;
+    width: 1000px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin-right: 171px;
+    
 }
 
 .header-item {
+    display: flex; 
+}
+
+.header-item span {
+    width: 10px;
     color: #150101;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    opacity: 0.6;    
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.header-item span:hover {
+    color:#D23166;
+    font-size: 15px;
+}
+
+.header-item span:active {
+    color:#D23166;
+    font-size: 15px;
+}
+
+.header-item span span {
+    color: rgba(242, 206, 218, 0.3);; 
 }
 
 .header-btn {
@@ -158,9 +182,14 @@ ul, ol {
     border: none;
 }
 
+.header-btn:hover {
+    background-color: rgba(242, 206, 218, 0.3);
+    border: 2px solid #D23166;
+    color: #D23166;
+}
+
 
 /* HERO */
-
 .hero-container {
     height: 597px;
     display: flex;
@@ -252,9 +281,10 @@ ul, ol {
     text-align: center;
 }
 
-.service-list-item-active {
+.service-list-item:hover {
     box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.10);
 }
+
 
 .service-list-img {
     width: 51px;
@@ -281,4 +311,92 @@ ul, ol {
     line-height: normal;
     opacity: 0.6;
     margin: 0px;
+}
+
+/* SUGAR */
+.sugar {
+    background-color: rgba(242, 206, 218, 0.3);
+    margin-bottom: 138px;
+}
+
+.sugar-container {
+    height: 550px;
+    background-image: url('/images/sugar-img.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 655px 657px;
+    display: flex;
+    align-items: center;
+}
+
+.sugar-heading {
+    width: 349px;
+    color: #150101;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110.5%; /* 48.841px */
+    margin: 0px;
+    margin-bottom: 16px;
+    
+}
+
+.sugar-paragraph {
+    width: 442px;
+    color: #150101;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    opacity: 0.6;
+    margin: 0px;
+    margin-bottom: 35px;
+}
+
+
+
+/* our product */
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-heading {
+    color: #150101;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 64px;
+}
+
+.product-category-list {
+    max-width: 890px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 50px;
+}
+
+.product-category-item {
+    color: #000;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.product-category-item:hover {
+    opacity: 1;
+    border-bottom: 3px solid #D64374;
+
 }
