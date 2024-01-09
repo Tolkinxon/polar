@@ -484,6 +484,28 @@ ul, ol {
     display: block;
 }
 
-/* .product-price-item:nth-child(2n) .product-price-item-btn{
-    align-self: ;
-} */
+/* adele */
+
+.adele-top-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 21px;
+}
+
+.adele-top-heading {
+    font-family: 'Robsoto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.adele-top-paragraph {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
