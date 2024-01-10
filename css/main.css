@@ -490,6 +490,9 @@ ul, ol {
 .product-adele {
     display: flex;
     align-items: center;
+
+
+    margin-bottom: 150px;
 }
 
 .product-adele-right-side {
@@ -575,6 +578,7 @@ ul, ol {
     width: 14px;
     height: 14px;
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .adele-right-side-bottom img {
@@ -589,11 +593,105 @@ ul, ol {
 
 .adele-right-side-bottom-arrow2 {
     transform: rotate(180deg);
+    cursor: pointer;
 }
 
 .product-adele-img {
     width: 564px;
     height: 442px;
-
-    
 }
+
+/* Simple Way To Order Your Food */
+.simple_way {
+    background-color: #F8EDF0; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 111px;
+}
+
+.simple_way-container {
+    display: flex;
+    justify-content: left;
+}
+
+.simple_way-img {
+    width: 269px;
+    height: 552.993px;
+    flex-shrink: 0;
+    border-radius: 33px;
+    background: #D64374;
+    box-shadow: -8px 8px 10px gray;
+    margin-right: 135px;
+}
+
+.simple_way-right-side {
+    margin-top: 50px;
+}
+
+
+.simple_way-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 44.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.simple_way-paragraph {
+    color: #0F0101;
+    width: 607px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.18px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.simple_way-list {
+    margin-bottom: 23px;
+}
+
+.simple_way-item {
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.simple_way-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+.simple_way-item p {
+    font-family: 'Roboto',sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.simple_way-store-list {
+    display: flex;
+    justify-content: left;
+    align-items: center ;
+    margin-left: -16px;
+}
+
+.simple_way-store-list img {
+
+    margin-right: 7px;
+    width: 200px;
+    height: 77px;
+}
+
+.simple_way-store-list img:nth-child(2) {
+    width: 173px;
+    height: 88px;
+}
+
