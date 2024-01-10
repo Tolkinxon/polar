@@ -530,11 +530,17 @@ ul, ol {
 
 .adele-right-side-middle {
     display: flex;
-    align-items: first baseline;
+    align-items: flex-start;
 }
 
 .adele-middle-img {
- 
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.adele-middle2-img {
+    position: relative;
+    top:6px
 }
 
 .adele-middle-paragraph {
