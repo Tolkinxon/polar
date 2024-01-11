@@ -112,7 +112,7 @@ ul, ol {
     display: flex;
     justify-content: left;
     align-items: center;
-    
+    padding-top: 10px;
 }
 
 .header {
@@ -744,10 +744,13 @@ ul, ol {
     outline: none;
 }
 
+.question-bottom {
+    height: 74;
+}
+
 
 .question-bottom input {
     width: calc(100% - 120px);
-    height: 74px;
     
     border-radius: 5px 0px 0px 5px;
     border: 1px solid #FFA3A3;
@@ -761,15 +764,14 @@ ul, ol {
 
 .question-btn {
     width: 134px;
-    height: 74px;
     flex-shrink: 0;
     border-radius: 5px;
     background: #D64374;
     width: 144px;
     border: none;
-
+    
     color: #FFF;
-
+    
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -784,13 +786,18 @@ ul, ol {
     padding-bottom: 105px;
 }
 
+.footer-container {
+    display: flex;
+}
+
 .footer-left-side {
     display: flex;
+    margin-right: 30px;
 }
 
 .footer-left-firth-column {
     margin-right: 37px;
-
+    
 }
 
 .footer-left-logo {
@@ -840,6 +847,11 @@ ul, ol {
     flex-direction: column;
     justify-content: flex-end;
     margin-bottom: -12px;
+    margin-right: 130px;
+} 
+
+.footer-left-third-column-list {
+    margin-bottom: 4px;
 }
 
 
@@ -857,4 +869,52 @@ ul, ol {
 .footer-left-second-column-item:hover {
     opacity: 1;
     cursor: pointer;
+}
+
+.footer-right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 14px;
+}
+
+.footer-right-heading {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 13px;
+}
+
+.footer-right-form {
+    width: 388px;
+    height: 55px;
+    margin-bottom: 17px;
+}
+
+.footer-right-form input {
+    background-color: transparent;
+    padding: 20px 20px 20px 15px;
+    color: white;
+}
+
+.footer-right-form button {
+    width: 125px; 
+}
+
+.question-bottom button:hover {
+    background-color: transparent;
+    color: #D23166;
+    border: 3px solid #D23166;
+}
+
+.footer-right-pay-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right-pay-item {
+    margin-right: 15px;
 }
