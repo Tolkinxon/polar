@@ -397,7 +397,8 @@ ul, ol {
 
 .product-category-item:hover {
     opacity: 1;
-    border-bottom: 3px solid #D64374;
+    /* border-bottom: 3px solid #D64374; */
+    box-shadow: inset 0px -3px 0px 0px  #D64374;
 
 }
 
@@ -624,6 +625,8 @@ ul, ol {
     margin-right: 135px;
 }
 
+
+
 .simple_way-right-side {
     margin-top: 50px;
 }
@@ -665,8 +668,15 @@ ul, ol {
     width: 30px;
     height: 30px;
     margin-right: 10px;
-
+    background-color: white;
+    border-radius: 3px;
 }
+
+.simple_way-item:nth-child(2) img {
+    padding: 8px;
+}
+
+
 
 .simple_way-item p {
     font-family: 'Roboto',sans-serif;
