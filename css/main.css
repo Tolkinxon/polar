@@ -385,7 +385,7 @@ ul, ol {
 
 .product-category-item {
     color: #000;
-
+    
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -398,13 +398,13 @@ ul, ol {
 .product-category-item:hover {
     opacity: 1;
     box-shadow: inset 0px -3px 0px 0px  #D64374;
-
+    
 }
 
 .product-price-list {
     width: 100%;
     margin-bottom: 120px;
-
+    
 }
 
 .product-price-item {
@@ -489,8 +489,8 @@ ul, ol {
 .product-adele {
     display: flex;
     align-items: center;
-
-
+    
+    
     margin-bottom: 150px;
 }
 
@@ -516,7 +516,7 @@ ul, ol {
     display: flex;
     flex-direction: column;
     align-items: start;
-
+    
 }
 
 .adele-top-heading {
@@ -692,7 +692,7 @@ ul, ol {
 }
 
 .simple_way-store-list img {
-
+    
     margin-right: 7px;
     width: 200px;
     height: 77px;
@@ -703,3 +703,67 @@ ul, ol {
     height: 88px;
 }
 
+
+/* question */
+.question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-heading {
+    width: 522px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.question-top, .question-bottom {
+    max-width: 636px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+
+.question-top input {
+    width: 303px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #FFA3A3;
+    
+    background: #FFF;
+    padding: 30px 30px 30px 25px;
+    outline: none;
+}
+
+
+.question-bottom input {
+    width: calc(100% - 120px);
+    height: 74px;
+    
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #FFA3A3;
+    border-right: none;
+    
+    background: #FFF;
+    padding: 30px 30px 30px 25px;
+    outline: none;
+    margin-right: -1px;
+}
+
+.question-btn {
+    width: 134px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D64374;
+    width: 144px;
+    border: none;
+}
