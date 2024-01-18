@@ -125,6 +125,7 @@ ul, ol {
     width:79px;
     height:79px;
     opacity: 1;
+    cursor: pointer;
 }
 
 
@@ -137,12 +138,8 @@ ul, ol {
     
 }
 
-.header-item {
-    display: flex; 
-}
 
-.header-item span {
-    width: 10px;
+.header-item {
     color: #150101;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -153,19 +150,16 @@ ul, ol {
     cursor: pointer;
 }
 
-.header-item span:hover {
+.header-item:hover {
     color:#D23166;
     font-size: 15px;
 }
 
-.header-item span:active {
+.header-active-item {
     color:#D23166;
     font-size: 15px;
 }
 
-.header-item span span {
-    color: rgba(242, 206, 218, 0.3);; 
-}
 
 .header-btn {
     width: 165px;
@@ -174,7 +168,7 @@ ul, ol {
     border-radius: 5px;
     background: #D23166;
     color: #FAFAFA;
-    font-family: Hind Madurai;
+    font-family: 'Hind Madurai', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -186,6 +180,7 @@ ul, ol {
     background-color: rgba(242, 206, 218, 0.3);
     border: 2px solid #D23166;
     color: #D23166;
+    cursor: pointer;
 }
 
 
@@ -193,7 +188,7 @@ ul, ol {
 .hero-container {
     height: 597px;
     display: flex;
-    background-image: url('/images/bg-image.png');
+    background-image: url('../images/bg-image.png');
     background-size: 742px;
     background-repeat: no-repeat;
     background-position:calc(50% + 303px);
@@ -321,7 +316,7 @@ ul, ol {
 
 .sugar-container {
     height: 550px;
-    background-image: url('/images/sugar-img.png');
+    background-image: url('../images/sugar-img.png');
     background-repeat: no-repeat;
     background-position: calc(50% + 280px);
     background-size: 655px 657px;
@@ -398,7 +393,7 @@ ul, ol {
 .product-category-item:hover {
     opacity: 1;
     box-shadow: inset 0px -3px 0px 0px  #D64374;
-    
+    cursor: pointer;
 }
 
 .product-price-list {
@@ -660,6 +655,7 @@ ul, ol {
     margin-bottom: 17px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .simple_way-item img {
@@ -696,6 +692,7 @@ ul, ol {
     margin-right: 7px;
     width: 200px;
     height: 77px;
+    cursor: pointer;
 }
 
 .simple_way-store-list img:nth-child(2) {
@@ -777,6 +774,7 @@ ul, ol {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    cursor: pointer;
 }
 
 /* footer */
@@ -840,6 +838,7 @@ ul, ol {
 .footer-left-follow-item-img {
     width: 15px;
     height: 15px;
+    cursor: pointer;
 }
 
 .footer-left-second-column-list {
@@ -917,4 +916,5 @@ ul, ol {
 
 .footer-right-pay-item {
     margin-right: 15px;
+    cursor: pointer;
 }
